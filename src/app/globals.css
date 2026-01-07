@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand Overrides (Gold/Charcoal Theme) */
+  --color-amber-50: #FFF8E1;
+  --color-amber-100: #FFECB3;
+  --color-amber-200: #FFE082;
+  --color-amber-300: #FFD54F;
+  --color-amber-400: #FFCA28;
+  --color-amber-500: #FFC107;
+  --color-amber-600: #FFA000;
+  --color-amber-700: #FF8F00;
+  --color-amber-800: #FF6F00;
+  --color-amber-900: #E65100;
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
